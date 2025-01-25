@@ -52,19 +52,21 @@ class Solution(object):
         :rtype: str
         """
     
-        len_1 = len(word1)
-        len_2 = len(word2)
-        min_len = min (len_1, len_2)
-        big_word = ""
-        for i in range(min_len):
-            big_word += word1[i]
-            big_word += word2[i]
+        len_1, len_2 = len(word1), len_2 = len(word2)
+        min_len = min(len_1, len_2)
+        merged_word = ""
 
+        # Merge for the overlapping part
+        for i in range(min_len):
+            merged_word += word1[i]
+            merged_word += word2[i]
+
+        # Append remaining if any
         if len_1 > min_len:
-            big_word += word1[min_len:]
+            merged_word += word1[min_len:]
         else:
-            big_word += word2[min_len:]
-        return big_word
+            merged_word += word2[min_len:]
+        return merged_word
     
 
 # Input: word1 = "abc", word2 = "pqr" Output: "apbqcr"
@@ -73,15 +75,19 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    # Optional: Some quick manual checks before running the tests
     s = Solution()
 
-    print (s.mergeAlternately(word1 = "abc", word2 = "pqr"))
-    print (s.mergeAlternately(word1 = "ab", word2 = "pqrs"))
-    print (s.mergeAlternately(word1 = "abcd", word2 = "pq"))
+    result1 = s.mergeAlternately("abc", "pqr")
+    print("Input: word1='abc', word2='pqr' -->", result1)
+    assert result1 == "apbqcr"
 
-    assert s.mergeAlternately(word1 = "abc", word2 = "pqr") == "apbqcr", "Should be apbqcr"
-    assert s.mergeAlternately(word1 = "ab", word2 = "pqrs") == "apbqrs", "Should be apbqrs"
-    assert s.mergeAlternately(word1 = "abcd", word2 = "pq") == "apbqcd", "Should be apbqcd"
-    
-    print("Everything passed")
+    result2 = s.mergeAlternately("ab", "pqrs")
+    print("Input: word1='ab', word2='pqrs' -->", result2)
+    assert result2 == "apbqrs"
 
+    result3 = s.mergeAlternately("abcd", "pq")
+    print("Input: word1='abcd', word2='pq' -->", result3)
+    assert result3 == "apbqcd"
+
+    print("Everything passed!")
