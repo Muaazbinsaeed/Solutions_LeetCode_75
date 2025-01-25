@@ -1,9 +1,8 @@
-```markdown
 # LeetCode 75 Solutions in Python 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Progress](https://img.shields.io/badge/Solved-15%2F75-orange)](https://leetcode.com/studyplan/leetcode-75/)
+[![Progress](https://img.shields.io/badge/Solved-01%2F75-orange)](https://leetcode.com/studyplan/leetcode-75/)
 [![Code Style](https://img.shields.io/badge/code%20style-PEP--8-brightgreen)](https://peps.python.org/pep-0008/)
 
 A comprehensive collection of Python solutions for the [LeetCode 75 Study Plan](https://leetcode.com/studyplan/leetcode-75/), featuring detailed documentation, testing, and complexity analysis. Ideal for technical interview preparation and algorithmic mastery.
@@ -121,7 +120,7 @@ python test_solution.py
 | Trie                         | 0               | 2     |
 | Intervals                    | 0               | 2     |
 | Monotonic Stack              | 0               | 2     |
-| **Total**                    | **0**           | **75**|
+| **Total**                    | **1**           | **75**|
 
 ---
 
@@ -262,4 +261,3 @@ Passionate Problem Solver & Software Developer
 
 **Happy Coding!** 🎉 👨💻
 *"Quality is not an act, it's a habit." - Aristotle*
-```
