@@ -52,7 +52,7 @@ class Solution(object):
         :rtype: str
         """
     
-        len_1, len_2 = len(word1), len_2 = len(word2)
+        len_1, len_2 = len(word1), len(word2)
         min_len = min(len_1, len_2)
         merged_word = ""
 

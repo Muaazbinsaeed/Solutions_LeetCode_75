@@ -99,7 +99,7 @@ python test_solution.py
 
 | Category                     | Problems Solved | Total |
 |------------------------------|----------------:|------:|
-| Array / String               | 1               | 9     |
+| Array / String               | 2               | 9     |
 | Two Pointers                 | 0               | 4     |
 | Sliding Window               | 0               | 4     |
 | Prefix Sum                   | 0               | 2     |
