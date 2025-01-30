@@ -98,7 +98,7 @@ python test_solution.py
 
 | Category                     | Problems Solved | Total |
 |------------------------------|----------------:|------:|
-| Array / String               | 7               | 9     |
+| Array / String               | 8               | 9     |
 | Two Pointers                 | 0               | 4     |
 | Sliding Window               | 0               | 4     |
 | Prefix Sum                   | 0               | 2     |
@@ -120,7 +120,7 @@ python test_solution.py
 | Trie                         | 0               | 2     |
 | Intervals                    | 0               | 2     |
 | Monotonic Stack              | 0               | 2     |
-| **Total**                    | **7**           | **75**|
+| **Total**                    | **8**           | **75**|
 
 ---
 
